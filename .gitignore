@@ -1,3 +1,4 @@
-Malloc_World_-_Freeing_of_the_dedicated_ram/bin/
-Malloc_World_-_Freeing_of_the_dedicated_ram/obj/
-*.layout
+
+Malloc_World_-_Freeing_of_the_dedicated_ram/obj/Debug/
+
+Malloc_World_-_Freeing_of_the_dedicated_ram/bin/Debug/

@@ -4,13 +4,12 @@ int main()
 {
     srand(time(NULL));
 
-    Levels *levels = malloc(sizeof(Levels)*1);
+    Levels *lv = malloc(sizeof(Levels));
+    PlayerPos *pc = malloc(sizeof(PlayerPos));
 
-    initMap(levels, 7,7);
+    initMap(lv, 8, 8, pc);
 
-    handleMovement(levels);
-
-    printf("%d", levels->columns);
+    handleMovement(lv, pc);
 
     return 0;
 }
