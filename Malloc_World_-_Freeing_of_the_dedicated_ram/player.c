@@ -21,6 +21,6 @@ typedef struct Player{
     int level;
     int life_point;
     int max_hit_point;
-    item item[];
+    item item[10];
 }Player;
 
