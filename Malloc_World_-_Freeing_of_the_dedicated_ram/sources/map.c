@@ -13,7 +13,6 @@ void printMap(int **map, int rows, int columns){
             }else{
                 printf(" %2d ", map[i][j]);
             }
-
         }
         printf("\n");
     }
