@@ -31,17 +31,41 @@
 		<Compiler>
 			<Add option="-Wall" />
 		</Compiler>
-		<Unit filename="header.h" />
-		<Unit filename="main.c">
+		<Unit filename="headers/combat.h" />
+		<Unit filename="headers/data.h" />
+		<Unit filename="headers/header.h" />
+		<Unit filename="headers/item.h" />
+		<Unit filename="headers/map.h" />
+		<Unit filename="headers/player.h" />
+		<Unit filename="headers/ressource.h" />
+		<Unit filename="sources/combat.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="map.c">
+		<Unit filename="sources/data.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="movement.c">
+		<Unit filename="sources/item.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="player.c">
+		<Unit filename="sources/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/menu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/movement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/player.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/pnj.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="sources/ressource.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Extensions>
