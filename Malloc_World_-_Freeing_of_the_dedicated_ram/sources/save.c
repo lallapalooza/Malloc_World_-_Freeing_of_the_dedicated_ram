@@ -11,13 +11,16 @@ int writeInFile(int** map){
     return 1;
 }
 
-//taille de la map à modifier
 void displayTab(int** map){
-    for (size_t i = 0; i < 10; i++) {
-        for (size_t j = 0; j < 10; j++) {
-            printf("%d ", map[i][j]);
+    printf("=== MAP === \n" );
+    for(int k=1; k<4; k++){
+        printf( "--- ZONE %d ---\n",k);
+        for (size_t i = 0; i < 4; i++) {
+            for (size_t j = 0; j < 4; j++) {
+                printf("%d ", map[i][j]);
+            }
+            printf("\n");
         }
-        printf("\n");
     }
 }
 
@@ -35,3 +38,4 @@ int main(int argc, char const *argv[]) {
     writeInFile(map);
     return 0;
 }
+
