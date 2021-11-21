@@ -4,8 +4,8 @@
 
 
 int writeInFile(int** map){
-    FILE* fNULL = fopen("save.txt", "w");
-    if(f == ){
+    FILE* f = fopen("save.txt", "w");
+    if(f == NULL){
         return 0;
     }
     fclose(f);
