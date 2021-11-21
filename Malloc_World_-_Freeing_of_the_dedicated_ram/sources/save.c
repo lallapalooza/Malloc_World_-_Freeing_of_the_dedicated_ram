@@ -65,7 +65,7 @@ int** readFile(){
 
     while(fgets(string, 255, f) != NULL){
         char* stringTok = strtok(string," ");
-        saveInt = malloc(sizeof(int) * 10);
+        saveInt = malloc(sizeof(int) *4);
         c= 0;
 
         while (stringTok != NULL) {
