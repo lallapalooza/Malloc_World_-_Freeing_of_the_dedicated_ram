@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <string.h>
 
-
 int writeInFile(int** map){
     FILE* f = fopen("save.txt", "w");
     if(f == NULL){
@@ -85,18 +84,3 @@ int** readFile(){
     return mapRead;
 }
 
-int main(int argc, char const *argv[]) {
-    int** map = malloc(sizeof(int*)*4);
-    for (size_t i =0; i < 4; i+=1) {
-        map[i] = malloc(sizeof(int)*4);
-    }
-    for (size_t i = 0; i < 4; i+=1) {
-        for (size_t j = 0; j < 4; j+=1) {
-            map[i][j] = 1;
-        }
-    }
-    writeInFile(map);
-    readFile();
-    freeMap(map);
-    return 0;
-}
